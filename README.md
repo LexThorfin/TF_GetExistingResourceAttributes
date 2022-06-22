@@ -4,6 +4,8 @@ Get the Resource Attributes from an existing RDS Aurora postgreSQL database to h
 
 # command lines run to populate terraform.tfstate
 
+#this assumes(!) you have existing cluster with id of satt and an instance of satt-instance-1
+
 # cluster
 
 terraform import aws_rds_cluster.SATTCluster satt
